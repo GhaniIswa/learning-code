@@ -26,14 +26,16 @@ body {
 }
 
 .box {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-auto-flow: column;
     gap: 20px 66px;
-    padding: 20px;
+}
+
+.box-2 {
+    justify-content: center;
 }
 
 .insidebox {
-    width: 90%;
     max-width: 730px;
     padding: 10px 16px;
     background-color: rgba(10, 10, 30, 0.74);
@@ -44,6 +46,24 @@ body {
 .univlink {
     font-size: 22px;
     color: #a6ace7;
+}
+
+.imgbox {
+    display: flex;
+    grid-auto-flow: column;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding: 100px 16px;
+}
+
+img {
+    display: block;
+    border: 2px solid slateblue;
+    width: 100%;
+    max-width: 500px;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
 }
 
 ul {
@@ -76,9 +96,8 @@ a {
 .btnbox {
     display: flex;
     justify-content: space-between;
-    max-width: 770px;
-    gap: 8px;
-    padding: 10px 20px;
+    max-width: 730px;
+    margin-top: 15px;
 }
 
 .icon {
