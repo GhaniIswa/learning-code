@@ -2,9 +2,10 @@
 This repository is for tracking progress  
 
 Learning progress
-- Understand C Language
-- Understand CSS
 - Understand HTML
+- Understand CSS
+- Understand Java Script BASIC
+- Understand C Language
 
 Goal is to make a whole working page includes:
 - Home page
