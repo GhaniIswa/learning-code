@@ -9,6 +9,7 @@ Learning progress
 
 Goal is to make a whole working page includes:
 - Home page
+- About page
 - Service page
 - Portfolio page
 etc
