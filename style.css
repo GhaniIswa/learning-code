@@ -76,7 +76,7 @@ a {
 .btnbox {
     display: flex;
     justify-content: space-between;
-    width: 49%;
+    max-width: 770px;
     gap: 8px;
     padding: 10px 20px;
 }
