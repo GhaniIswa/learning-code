@@ -1,26 +1,53 @@
-.mainpage{
+body {
+    background-color: black;
+    color: white;
+}
+
+.headmain {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 90px;
+    padding-left: 90px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.topb {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 0;
+}
+
+.row {
+    padding-top: 10px;
+}
+
+.mainpage {
     width: 620px;
     margin-left: 60px;
     padding-top: 10px;
     padding-right: 16px;
     padding-bottom: 10px;
     padding-left: 16px;
-    background-color:rgba(46, 46, 46, 0.74);
+    background-color: rgba(46, 46, 46, 0.74);
     box-shadow: 5px 7px 11px #a6ade7;
     border-radius: 25px;
 }
 
-.topb{
-   background-color: white;
-   color: white;
+.univlink {
+    font-size: 22px;
+    color: #a6ace7;
 }
 
-body {
-    background-color: black;
-    color: white;
-}
-
-.bgcol{
+.bgcol {
     background-color: rgba(46, 46, 46, 0.74);
     border-radius: 25px;
     padding-left: 10px;
@@ -36,10 +63,14 @@ body {
     float: right;
     right: 80px;
     width: 370px;
-    overflow: hidden
+    overflow: hidden;
 }
 
-.collapse {   
+.openabout {
+    font-size: 20px;
+}
+
+.collapse {
     background-color: rgb(46, 46, 46, 0.74);
     border-radius: 25px;
     box-shadow: 5px 7px 11px #a6ace7;
@@ -49,24 +80,18 @@ body {
     width: 370px;
 }
 
-
 ul {
-    height: 0px;
+    height: auto;
     list-style: none;
     padding-left: 0px;
     margin: 0px;
 }
 
-li a{
-    position: relative;
+li a {
+    position: static;
     color: white;
-    left: 39%;
-    padding-left: 25px;
-    display: inline-flex;
-    padding-top: 15px;
-    float: left;
-    text-decoration: none;
-    
+    left: auto;
+    display: block;
 }
 
 li a:hover:not(.aktif) {
@@ -97,7 +122,7 @@ button {
 }
 
 .btn:hover {
-    background-color:#a6ace7;
+    background-color: #a6ace7;
     color: black;
 }
 
@@ -113,27 +138,26 @@ button {
     height: 40px;
 }
 
-.btn2:hover{
+.btn2:hover {
     background-color: #a6ace7;
     transition: 0.4s;
     color: black;
 }
 
-.btn2 span{
+.btn2 span {
     position: relative;
     transition: 0.7s;
     opacity: 0;
 }
 
-.btn2 span:after{
+.btn2 span:after {
     position: absolute;
-    content: '\00bb';
+    content: "\00bb";
     top: 0;
     padding-left: -20px;
-
 }
 
-.btn2:hover span{
+.btn2:hover span {
     opacity: 1;
     padding-left: 20px;
 }
